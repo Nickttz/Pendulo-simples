@@ -36,3 +36,9 @@ Para rodar o código, você precisará ter o Python instalado em seu computador.
 
 ```bash
 pip install numpy matplotlib scipy
+```
+
+# Gráfico
+
+![Circuito RLC](Imagem.jpg)
+
