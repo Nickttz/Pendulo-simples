@@ -1,6 +1,18 @@
 # Simulação de Movimento de Pêndulo
 
-Este código simula o movimento de um pêndulo sob a influência de forças variáveis. O modelo utiliza a seguinte equação diferencial:
+## Equação 
+
+A equação do movimento de um pêndulo é descrito pela seguinte equação diferencial:
+
+### d^2θ/dt^2 + (g/l)*sen(θ) = 0
+
+onde: 
+- g é aceleração da gravidade
+- l é o comprimento do pêndulo.
+
+## Método
+
+Este código simula o movimento de um pêndulo sob a influência de forças variáveis. O modelo utiliza o método de Runge-Kutta de ordem 5 (RK45) para resolver a equação diferencial e variando os valores de a e q:
 
 ### y''(x) = -(a - 2q * cos(2x)) * y(x)
 
